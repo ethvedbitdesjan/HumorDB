@@ -5,7 +5,7 @@ Welcome to the HumorDB Repository! This repository contains a comprehensive coll
 ### Load Huggingface Dataset
 
 ```python
-humor_db = load_dataset("VedaantJain/HumorDB")
+humor_db = load_dataset("kreimanlab/HumorDB")
 ```
 
 Each item in the dataset has the following keys: **image, range_ratings_mean, comparison_ratings, binary_ratings, words**.
